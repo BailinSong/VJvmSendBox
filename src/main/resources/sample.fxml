@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="center" hgap="10" prefHeight="548.0" prefWidth="838.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane alignment="center" hgap="10" prefHeight="548.0" prefWidth="838.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ooo.reindeer.jvm.sandbox.view.Controller">
    <columnConstraints>
       <ColumnConstraints />
       <ColumnConstraints />
@@ -25,13 +25,13 @@
             <GridPane BorderPane.alignment="CENTER">
               <columnConstraints>
                   <ColumnConstraints hgrow="ALWAYS" maxWidth="119.0" minWidth="10.0" />
-                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="71.0" />
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="210.0" minWidth="10.0" prefWidth="150.0" />
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="149.0" minWidth="10.0" prefWidth="59.0" />
-                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="199.0" minWidth="10.0" prefWidth="150.0" />
-                  <ColumnConstraints hgrow="NEVER" maxWidth="175.0" minWidth="10.0" prefWidth="18.0" />
-                  <ColumnConstraints hgrow="NEVER" maxWidth="218.0" minWidth="10.0" prefWidth="96.0" />
-                  <ColumnConstraints hgrow="ALWAYS" maxWidth="163.0" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="223.0" minWidth="10.0" prefWidth="223.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="210.0" minWidth="0.0" prefWidth="28.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="149.0" minWidth="10.0" prefWidth="53.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="231.0" minWidth="10.0" prefWidth="205.0" />
+                  <ColumnConstraints hgrow="NEVER" maxWidth="175.0" minWidth="10.0" prefWidth="27.0" />
+                  <ColumnConstraints hgrow="NEVER" maxWidth="218.0" minWidth="10.0" prefWidth="83.0" />
+                  <ColumnConstraints hgrow="ALWAYS" maxWidth="163.0" minWidth="10.0" prefWidth="90.0" />
               </columnConstraints>
               <rowConstraints>
                 <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="NEVER" />
@@ -55,8 +55,8 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <TextArea fx:id="console" editable="false" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000; -fx-text-fill: #cccccc;" wrapText="true" />
-                  <TextField fx:id="inputCommand" onKeyPressed="#onInputCommandKeyPressed" style="-fx-background-color: #000000; -fx-text-fill: #cccccc;" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="NEVER" />
+                  <TextArea fx:id="console" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" />
+                  <TextField fx:id="inputCommand" onKeyPressed="#onInputCommandKeyPressed" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="NEVER" />
                </children>
             </GridPane>
          </center>
